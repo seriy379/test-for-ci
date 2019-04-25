@@ -4,6 +4,7 @@
   "description": "This is a program for testing circle ci",
   "main": "index.ts",
   "scripts": {
+    "test": "mocha --opts mocha.opts"
   },
   "author": "seriy379",
   "license": "ISC",
