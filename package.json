@@ -4,8 +4,6 @@
   "description": "This is a program for testing circle ci",
   "main": "index.ts",
   "scripts": {
-    "tslint": "tslint --project tsconfig.json",
-    "dev": "nodemon --ignore '.git'",
   },
   "author": "seriy379",
   "license": "ISC",
