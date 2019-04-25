@@ -1,5 +1,5 @@
 import chai from 'chai';
-import { Task } from '../1.6';
+import { Task } from './index';
 
 const task = new Task();
 
