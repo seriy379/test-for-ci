@@ -7,4 +7,5 @@ jobs:
     steps:
       - checkout
       - run: npm install
-      - run: npm test
+      - run: npm test 1.6.e2e.ts
+      - run: npm test 1.6.unit.ts
