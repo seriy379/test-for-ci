@@ -1,6 +1,6 @@
 import chai from 'chai';
 import supertest from 'supertest';
-import { app } from '../1.6';
+import { app } from './index';
 
 let firstId: string = '';
 
