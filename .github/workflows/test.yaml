@@ -1,0 +1,14 @@
+name: testing
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Just a Test
+    steps:
+    -
+      name: Show secrets
+      env:
+        TEST_AWS_ACCESS_KEY_ID: ${{ secrets.KEY }}
+        TEST_AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET }}
+      run: echo "key - $TEST_AWS_ACCESS_KEY_ID \n secret - $TEST_AWS_SECRET_ACCESS_KEY"
